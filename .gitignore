@@ -1,0 +1,13 @@
+*.tsv
+*.xlsx
+*.csv
+/__pycache__
+*/__pycache__
+*/*/__pycache__
+*/*/*/__pycache__
+*.pth
+/experiments
+/wandb
+*/wandb
+/EVAL/*.csv
+/models
