@@ -12,6 +12,9 @@ import torch.optim as optim
 
 from sklearn.metrics import roc_auc_score
 
+import sys
+sys.path.append("/home/sondors/Documents/price/ColBERT")
+
 from interface import load_model#, get_query_emb_batch
 from typing import List, Dict
 from colbert.modeling.checkpoint import Checkpoint
